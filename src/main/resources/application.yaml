@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://leohervouet:mongodbleohervouet@mongodb.hh0nno2.mongodb.net/?retryWrites=true&w=majority
+      database: tododb
