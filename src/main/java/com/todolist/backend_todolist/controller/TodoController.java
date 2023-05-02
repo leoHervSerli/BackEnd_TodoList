@@ -26,7 +26,7 @@ public class TodoController
     }
 
     @PostMapping("/insert")
-    public Todo insert(@RequestBody Todo todo)
+    public Todo insert(@RequestBody Todo todo)  
     {
         // On change l'id part l'id suivant.
         todo.setId(sequenceGeneratorService.getSequenceNumber(Todo.SEQUENCE_NAME));
